@@ -21,6 +21,7 @@ public class Greeter {
     String country = args[1];
     String name = args[2];
     int n = args.length;
+    if(n!=3) cout<<"Error";
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
   }
